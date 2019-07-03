@@ -143,6 +143,9 @@ article.home h4 a:hover {
 	color: #e74c3c;
 }
 
+article.home:not(:last-of-type) {
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
 .author .author-image {
   float: left;
   margin-right: 20px;
